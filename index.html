@@ -1,52 +1,59 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Kirill Klymko</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Klymko Kirill</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#practices">Practices</a></li>
-                <li><a href="#labs">Labs</a></li>
-            </ul>
-        </nav>
+        <h1>Kirill Klymko</h1>
+        <label style="font-size: 35px;">👋</label>
     </header>
     
-    <main>
-        <section id="about-me">
+    <nav>
+        <a href="#about">About</a>
+        <a href="#Labs">Lab projects</a>
+        <a href="#Practics">Practic projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
             <h2>About Me</h2>
-            <p></p>
             <p>Student and JAVA, C++, C# Developer</p>
         </section>
-        
-        <section id="practices">
-            <h2>Practices</h2>
-            <div class="work-list">
+
+        <section id="Labs">
+            <h2>Lab projects</h2>
+            <div class="project">
+                <h3>Lab 1</h3>
+                <p>A simple HTML/JS/CSS registration form</p>
+                <a href="https://blazor911.github.io/Registration-Form-Lab/" class="button">View</a>
+            </div>
+
+            <div class="project">
+                <h3>Lab 2</h3>
+                <p>CSS Challenge</p>
+                <a href="https://blazor911.github.io/WebLab2/" class="button">View</a>
             </div>
         </section>
-        
-        <section id="labs">
-            <h2>Labs</h2>
-            <div class="work-list">
-                <a href="https://blazor911.github.io/Registration-Form-Lab/"  class="work-item">Lab №1</a>
-                <a href="https://blazor911.github.io/WebLab2/"  class="work-item">Lab №2</a>
-            </div>
+
+        <section id="Practics">
+            <h2>Practic projects</h2>
         </section>
 
         <section id="contact">
-            <h2>Contacts</h2>
-            <div class="button-container">
-                <a href="https://github.com/blazor911" target="_blank" class="button">GitHub</a>
-                <a href="mailto:winjiz107@gmail.com" class="button">Email</a>
-            </div>
+            <h2>Contact</h2>
+            <a href="mailto:winjiz107@gmail.com" class="button">
+                <i class="fab fa-twitter"></i>
+            </a>     
+            <a href="https://github.com/blazor911" class="button">
+                <i class="fab fa-github"></i>
+            </a>            
         </section>
-    </main>
-
+    </div>
 </body>
 </html>
